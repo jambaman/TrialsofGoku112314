@@ -7,6 +7,7 @@
 //
 
 #import "FirstLevel.h"
+@import AVFoundation;
 
 @implementation FirstLevel
 {
@@ -18,7 +19,8 @@
 {
     self = [super init];
     if (self) {
-
+        
+       
         #pragma mark Initial Set Up
         ballSpawnFlag = NO;
         self.levelRange = 20;
@@ -51,9 +53,6 @@
         [self.minion4 setUpHealthBar];
 
         
-        
-        
-        
         #pragma mark Set Up Buu
  /*       self.finalBoss = [[Buu alloc] init];
         self.finalBoss = [self.finalBoss setUpBuu];
@@ -61,6 +60,7 @@
         self.finalBoss = [[Cell alloc] init];
         self.finalBoss = [self.finalBoss setUpCell];
         [self.finalBoss setUpHealthBar];
+        [self setupMusic];
     
     }
     return self;
@@ -70,11 +70,11 @@
 -(void)setUpLevelForScene:(SKScene *)scene{
     
     self.minion1.position = CGPointMake(700,35);
-    self.minion2.position = CGPointMake(self.goku.position.x + 700,35);
-    self.minion3.position = CGPointMake(self.goku.position.x + 700,35);
-    self.minion4.position = CGPointMake(self.goku.position.x + 350,35);
+    self.minion2.position = CGPointMake(self.goku.position.x + 850,35);
+    self.minion3.position = CGPointMake(self.goku.position.x + 1200,35);
+    self.minion4.position = CGPointMake(self.goku.position.x + 700,35);
     
-    self.finalBoss.position = CGPointMake(700, 40);
+    self.finalBoss.position = CGPointMake(self.goku.position.x + 1000, 40);
     
     [scene addChild:self.background1];
     [scene addChild:self.background2];
@@ -99,16 +99,17 @@
                 [scene addChild:self.minion2];
                 [scene addChild:self.minion2.healthBar];
             }
-            break;
-        
-        case 2://minion3
             if(!self.minion3.isActivated && self.minion1.isDead && self.minion2.isDead)
             {
                 self.minion3.isActivated = true;
                 [scene addChild:self.minion3];
                 [scene addChild:self.minion3.healthBar];
             }
-            if(!self.minion4.isActivated && self.minion1.isDead && self.minion2.isDead && self.minion3.isDead){
+
+            break;
+        
+        case 2://minion3
+                if(!self.minion4.isActivated && self.minion1.isDead && self.minion2.isDead && self.minion3.isDead){
                 self.minion4.isActivated = true;
                 [scene addChild:self.minion4];
                 [scene addChild:self.minion4.healthBar];
@@ -124,11 +125,7 @@
 
         case 3:
             
-            if(!self.minion3.isActivated && self.minion2.isDead)
-            {
-                
-            }
-            
+                       
             break;
             
         default:
@@ -171,6 +168,16 @@
     // minion collisions
     [self handleMinionCollisions:contact];
   
+}
+- (void) setupMusic
+{
+    NSString *musicPath = [[NSBundle mainBundle]
+                           pathForResource:@"Rock_the_Dragon" ofType:@"mp3"];
+    self.backgroundMusicPlayer = [[AVAudioPlayer alloc]
+                        initWithContentsOfURL:[NSURL fileURLWithPath:musicPath] error:NULL];
+    self.backgroundMusicPlayer.numberOfLoops = -1;
+    self.backgroundMusicPlayer.volume = .2;
+    [self.backgroundMusicPlayer play];
 }
 
 @end

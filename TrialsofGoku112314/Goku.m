@@ -92,6 +92,7 @@
 -(void)setUpPowerBalls:(float)difference onScene:(SKScene*)scene{
     NSArray * currentFrames;
     NSInteger ballVelocity = 0;
+    [self setupMusic];
     if([self.lastDirection isEqualToString:@"right"]){
         currentFrames= [self getAnimationFrames:@"goku_norm_ball_release_right"];
         ballVelocity = 4;
@@ -324,5 +325,14 @@
         }
     }
 }
-
+- (void) setupMusic
+{
+    NSString *musicPath = [[NSBundle mainBundle]
+                           pathForResource:@"aura-big" ofType:@"wav"];
+    self.kamehaBlast = [[AVAudioPlayer alloc]
+                        initWithContentsOfURL:[NSURL fileURLWithPath:musicPath] error:NULL];
+    //self.kamehaBlast.duration = ;
+    self.kamehaBlast.volume = .75;
+    [self.kamehaBlast play];
+}
 @end

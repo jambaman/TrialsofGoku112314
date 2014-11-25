@@ -41,6 +41,63 @@
 		1194D3B61A2366F4008C209B /* Goku_splash_sketch_phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 1194D3A71A2366F4008C209B /* Goku_splash_sketch_phone.png */; };
 		1194D3B71A2366F4008C209B /* misc.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 1194D3A81A2366F4008C209B /* misc.atlas */; };
 		1194D3B81A2366F4008C209B /* Rock-Sprite.png in Resources */ = {isa = PBXBuildFile; fileRef = 1194D3AA1A2366F4008C209B /* Rock-Sprite.png */; };
+		11956BCF1A23E5B80007747A /* goku.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11956BCE1A23E5B80007747A /* goku.mp3 */; };
+		11956BD31A23E6880007747A /* End-shout.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11956BD21A23E6880007747A /* End-shout.mp3 */; };
+		11956BD51A23E6A20007747A /* kameha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11956BD41A23E6A20007747A /* kameha.mp3 */; };
+		11956BDA1A241BBB0007747A /* perfect_cell_theme1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11956BD91A241BBB0007747A /* perfect_cell_theme1.mp3 */; };
+		11956C061A241FB10007747A /* aura-big.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BDD1A241FB10007747A /* aura-big.wav */; };
+		11956C071A241FB10007747A /* aura.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BDE1A241FB10007747A /* aura.wav */; };
+		11956C081A241FB10007747A /* basicbeam_charge.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BDF1A241FB10007747A /* basicbeam_charge.wav */; };
+		11956C091A241FB10007747A /* basicbeam_fire.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BE01A241FB10007747A /* basicbeam_fire.wav */; };
+		11956C0A1A241FB10007747A /* boom.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BE11A241FB10007747A /* boom.wav */; };
+		11956C0B1A241FB10007747A /* chainswoop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BE21A241FB10007747A /* chainswoop.wav */; };
+		11956C0C1A241FB10007747A /* descend.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BE31A241FB10007747A /* descend.wav */; };
+		11956C0D1A241FB10007747A /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BE41A241FB10007747A /* explosion.wav */; };
+		11956C0E1A241FB10007747A /* explosion1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BE51A241FB10007747A /* explosion1.wav */; };
+		11956C0F1A241FB10007747A /* Explosion2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BE61A241FB10007747A /* Explosion2.wav */; };
+		11956C101A241FB10007747A /* finalflash.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BE71A241FB10007747A /* finalflash.wav */; };
+		11956C111A241FB10007747A /* groundhit2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BE81A241FB10007747A /* groundhit2.wav */; };
+		11956C121A241FB10007747A /* groundrecover.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BE91A241FB10007747A /* groundrecover.wav */; };
+		11956C131A241FB10007747A /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BEA1A241FB10007747A /* jump.wav */; };
+		11956C141A241FB10007747A /* kame_charge.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BEB1A241FB10007747A /* kame_charge.wav */; };
+		11956C151A241FB10007747A /* kamehameha_fire.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BEC1A241FB10007747A /* kamehameha_fire.wav */; };
+		11956C161A241FB10007747A /* kiplosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BED1A241FB10007747A /* kiplosion.wav */; };
+		11956C171A241FB10007747A /* mase_charge.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BEE1A241FB10007747A /* mase_charge.wav */; };
+		11956C181A241FB10007747A /* mediumkick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BEF1A241FB10007747A /* mediumkick.wav */; };
+		11956C191A241FB10007747A /* mediumpunch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BF01A241FB10007747A /* mediumpunch.wav */; };
+		11956C1A1A241FB10007747A /* meleeflash.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BF11A241FB10007747A /* meleeflash.wav */; };
+		11956C1B1A241FB10007747A /* meleehit1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BF21A241FB10007747A /* meleehit1.wav */; };
+		11956C1C1A241FB10007747A /* meleehit2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BF31A241FB10007747A /* meleehit2.wav */; };
+		11956C1D1A241FB10007747A /* meleemiss1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BF41A241FB10007747A /* meleemiss1.wav */; };
+		11956C1E1A241FB10007747A /* meleemiss2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BF51A241FB10007747A /* meleemiss2.wav */; };
+		11956C1F1A241FB10007747A /* meleemiss3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BF61A241FB10007747A /* meleemiss3.wav */; };
+		11956C201A241FB10007747A /* meleestruggletie.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BF71A241FB10007747A /* meleestruggletie.wav */; };
+		11956C211A241FB10007747A /* prepunch1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BF81A241FB10007747A /* prepunch1.wav */; };
+		11956C221A241FB10007747A /* presword1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BF91A241FB10007747A /* presword1.wav */; };
+		11956C231A241FB10007747A /* punch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BFA1A241FB10007747A /* punch.wav */; };
+		11956C241A241FB10007747A /* rapid punch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BFB1A241FB10007747A /* rapid punch.wav */; };
+		11956C251A241FB10007747A /* strongkick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BFC1A241FB10007747A /* strongkick.wav */; };
+		11956C261A241FB10007747A /* strongpunch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BFD1A241FB10007747A /* strongpunch.wav */; };
+		11956C271A241FB10007747A /* supermove.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BFE1A241FB10007747A /* supermove.wav */; };
+		11956C281A241FB10007747A /* swoop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956BFF1A241FB10007747A /* swoop.wav */; };
+		11956C291A241FB10007747A /* swoophit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956C001A241FB10007747A /* swoophit.wav */; };
+		11956C2A1A241FB10007747A /* sword-slash.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956C011A241FB10007747A /* sword-slash.wav */; };
+		11956C2B1A241FB10007747A /* swordhit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956C021A241FB10007747A /* swordhit.wav */; };
+		11956C2C1A241FB10007747A /* swordkill.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956C031A241FB10007747A /* swordkill.wav */; };
+		11956C2D1A241FB10007747A /* teleport.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956C041A241FB10007747A /* teleport.wav */; };
+		11956C2E1A241FB10007747A /* teleport00.wav in Resources */ = {isa = PBXBuildFile; fileRef = 11956C051A241FB10007747A /* teleport00.wav */; };
+		11956C391A24362A0007747A /* cell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11956C301A24362A0007747A /* cell.mp3 */; };
+		11956C3A1A24362A0007747A /* dragon_ball_gt.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11956C311A24362A0007747A /* dragon_ball_gt.mp3 */; };
+		11956C3B1A24362A0007747A /* dragon_ball_opening.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11956C321A24362A0007747A /* dragon_ball_opening.mp3 */; };
+		11956C3C1A24362A0007747A /* dragon_ball_z.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11956C331A24362A0007747A /* dragon_ball_z.mp3 */; };
+		11956C3D1A24362A0007747A /* dragon_ball_z_theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11956C341A24362A0007747A /* dragon_ball_z_theme.mp3 */; };
+		11956C3E1A24362A0007747A /* dragon_ball_z_theme2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11956C351A24362A0007747A /* dragon_ball_z_theme2.mp3 */; };
+		11956C3F1A24362A0007747A /* perfect_cell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11956C361A24362A0007747A /* perfect_cell.mp3 */; };
+		11956C401A24362A0007747A /* perfect_cell_theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11956C371A24362A0007747A /* perfect_cell_theme.mp3 */; };
+		11956C411A24362A0007747A /* vegeta_attack_theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11956C381A24362A0007747A /* vegeta_attack_theme.mp3 */; };
+		11956C431A2443400007747A /* perfect_cell_theme2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11956C421A2443400007747A /* perfect_cell_theme2.mp3 */; };
+		11956C451A2454830007747A /* Rock_the_Dragon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11956C441A2454830007747A /* Rock_the_Dragon.mp3 */; };
+		11956C471A2454A10007747A /* Dragon_Ball_Dub_Step.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11956C461A2454A10007747A /* Dragon_Ball_Dub_Step.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +163,63 @@
 		1194D3A71A2366F4008C209B /* Goku_splash_sketch_phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Goku_splash_sketch_phone.png; sourceTree = "<group>"; };
 		1194D3A81A2366F4008C209B /* misc.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = misc.atlas; sourceTree = "<group>"; };
 		1194D3AA1A2366F4008C209B /* Rock-Sprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rock-Sprite.png"; sourceTree = "<group>"; };
+		11956BCE1A23E5B80007747A /* goku.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = goku.mp3; path = ../../Downloads/goku.mp3; sourceTree = "<group>"; };
+		11956BD21A23E6880007747A /* End-shout.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "End-shout.mp3"; path = "/Applications/Audacity/End-shout.mp3"; sourceTree = "<absolute>"; };
+		11956BD41A23E6A20007747A /* kameha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = kameha.mp3; path = /Applications/Audacity/kameha.mp3; sourceTree = "<absolute>"; };
+		11956BD91A241BBB0007747A /* perfect_cell_theme1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = perfect_cell_theme1.mp3; path = ../../../../Applications/Audacity/perfect_cell_theme1.mp3; sourceTree = "<group>"; };
+		11956BDD1A241FB10007747A /* aura-big.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "aura-big.wav"; sourceTree = "<group>"; };
+		11956BDE1A241FB10007747A /* aura.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = aura.wav; sourceTree = "<group>"; };
+		11956BDF1A241FB10007747A /* basicbeam_charge.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = basicbeam_charge.wav; sourceTree = "<group>"; };
+		11956BE01A241FB10007747A /* basicbeam_fire.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = basicbeam_fire.wav; sourceTree = "<group>"; };
+		11956BE11A241FB10007747A /* boom.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = boom.wav; sourceTree = "<group>"; };
+		11956BE21A241FB10007747A /* chainswoop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chainswoop.wav; sourceTree = "<group>"; };
+		11956BE31A241FB10007747A /* descend.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = descend.wav; sourceTree = "<group>"; };
+		11956BE41A241FB10007747A /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosion.wav; sourceTree = "<group>"; };
+		11956BE51A241FB10007747A /* explosion1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosion1.wav; sourceTree = "<group>"; };
+		11956BE61A241FB10007747A /* Explosion2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Explosion2.wav; sourceTree = "<group>"; };
+		11956BE71A241FB10007747A /* finalflash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = finalflash.wav; sourceTree = "<group>"; };
+		11956BE81A241FB10007747A /* groundhit2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = groundhit2.wav; sourceTree = "<group>"; };
+		11956BE91A241FB10007747A /* groundrecover.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = groundrecover.wav; sourceTree = "<group>"; };
+		11956BEA1A241FB10007747A /* jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jump.wav; sourceTree = "<group>"; };
+		11956BEB1A241FB10007747A /* kame_charge.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kame_charge.wav; sourceTree = "<group>"; };
+		11956BEC1A241FB10007747A /* kamehameha_fire.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kamehameha_fire.wav; sourceTree = "<group>"; };
+		11956BED1A241FB10007747A /* kiplosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kiplosion.wav; sourceTree = "<group>"; };
+		11956BEE1A241FB10007747A /* mase_charge.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mase_charge.wav; sourceTree = "<group>"; };
+		11956BEF1A241FB10007747A /* mediumkick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mediumkick.wav; sourceTree = "<group>"; };
+		11956BF01A241FB10007747A /* mediumpunch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mediumpunch.wav; sourceTree = "<group>"; };
+		11956BF11A241FB10007747A /* meleeflash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = meleeflash.wav; sourceTree = "<group>"; };
+		11956BF21A241FB10007747A /* meleehit1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = meleehit1.wav; sourceTree = "<group>"; };
+		11956BF31A241FB10007747A /* meleehit2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = meleehit2.wav; sourceTree = "<group>"; };
+		11956BF41A241FB10007747A /* meleemiss1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = meleemiss1.wav; sourceTree = "<group>"; };
+		11956BF51A241FB10007747A /* meleemiss2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = meleemiss2.wav; sourceTree = "<group>"; };
+		11956BF61A241FB10007747A /* meleemiss3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = meleemiss3.wav; sourceTree = "<group>"; };
+		11956BF71A241FB10007747A /* meleestruggletie.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = meleestruggletie.wav; sourceTree = "<group>"; };
+		11956BF81A241FB10007747A /* prepunch1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = prepunch1.wav; sourceTree = "<group>"; };
+		11956BF91A241FB10007747A /* presword1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = presword1.wav; sourceTree = "<group>"; };
+		11956BFA1A241FB10007747A /* punch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = punch.wav; sourceTree = "<group>"; };
+		11956BFB1A241FB10007747A /* rapid punch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "rapid punch.wav"; sourceTree = "<group>"; };
+		11956BFC1A241FB10007747A /* strongkick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = strongkick.wav; sourceTree = "<group>"; };
+		11956BFD1A241FB10007747A /* strongpunch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = strongpunch.wav; sourceTree = "<group>"; };
+		11956BFE1A241FB10007747A /* supermove.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = supermove.wav; sourceTree = "<group>"; };
+		11956BFF1A241FB10007747A /* swoop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = swoop.wav; sourceTree = "<group>"; };
+		11956C001A241FB10007747A /* swoophit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = swoophit.wav; sourceTree = "<group>"; };
+		11956C011A241FB10007747A /* sword-slash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sword-slash.wav"; sourceTree = "<group>"; };
+		11956C021A241FB10007747A /* swordhit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = swordhit.wav; sourceTree = "<group>"; };
+		11956C031A241FB10007747A /* swordkill.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = swordkill.wav; sourceTree = "<group>"; };
+		11956C041A241FB10007747A /* teleport.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = teleport.wav; sourceTree = "<group>"; };
+		11956C051A241FB10007747A /* teleport00.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = teleport00.wav; sourceTree = "<group>"; };
+		11956C301A24362A0007747A /* cell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cell.mp3; sourceTree = "<group>"; };
+		11956C311A24362A0007747A /* dragon_ball_gt.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dragon_ball_gt.mp3; sourceTree = "<group>"; };
+		11956C321A24362A0007747A /* dragon_ball_opening.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dragon_ball_opening.mp3; sourceTree = "<group>"; };
+		11956C331A24362A0007747A /* dragon_ball_z.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dragon_ball_z.mp3; sourceTree = "<group>"; };
+		11956C341A24362A0007747A /* dragon_ball_z_theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dragon_ball_z_theme.mp3; sourceTree = "<group>"; };
+		11956C351A24362A0007747A /* dragon_ball_z_theme2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dragon_ball_z_theme2.mp3; sourceTree = "<group>"; };
+		11956C361A24362A0007747A /* perfect_cell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = perfect_cell.mp3; sourceTree = "<group>"; };
+		11956C371A24362A0007747A /* perfect_cell_theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = perfect_cell_theme.mp3; sourceTree = "<group>"; };
+		11956C381A24362A0007747A /* vegeta_attack_theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vegeta_attack_theme.mp3; sourceTree = "<group>"; };
+		11956C421A2443400007747A /* perfect_cell_theme2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = perfect_cell_theme2.mp3; path = ../../../../Applications/Audacity/perfect_cell_theme2.mp3; sourceTree = "<group>"; };
+		11956C441A2454830007747A /* Rock_the_Dragon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Rock_the_Dragon.mp3; path = ../Rock_the_Dragon.mp3; sourceTree = "<group>"; };
+		11956C461A2454A10007747A /* Dragon_Ball_Dub_Step.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Dragon_Ball_Dub_Step.mp3; path = ../Dragon_Ball_Dub_Step.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +243,7 @@
 		1150445B1A22E5B5004C147F = {
 			isa = PBXGroup;
 			children = (
+				11956BD61A23E6A80007747A /* Audio */,
 				1194D3991A2366F4008C209B /* img */,
 				115044BF1A22F24D004C147F /* Globals.h */,
 				115044661A22E5B5004C147F /* TrialsofGoku112314 */,
@@ -313,6 +428,96 @@
 			path = obstacles;
 			sourceTree = "<group>";
 		};
+		11956BD61A23E6A80007747A /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				11956C2F1A24362A0007747A /* background music */,
+				11956BDB1A241FB10007747A /* DBZ sound effects! */,
+				11956BD91A241BBB0007747A /* perfect_cell_theme1.mp3 */,
+				11956BCE1A23E5B80007747A /* goku.mp3 */,
+				11956BD21A23E6880007747A /* End-shout.mp3 */,
+				11956BD41A23E6A20007747A /* kameha.mp3 */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		11956BDB1A241FB10007747A /* DBZ sound effects! */ = {
+			isa = PBXGroup;
+			children = (
+				11956BDC1A241FB10007747A /* DBZ sound effects! */,
+			);
+			name = "DBZ sound effects!";
+			path = "../../Desktop/DBZ sound effects!";
+			sourceTree = "<group>";
+		};
+		11956BDC1A241FB10007747A /* DBZ sound effects! */ = {
+			isa = PBXGroup;
+			children = (
+				11956BDD1A241FB10007747A /* aura-big.wav */,
+				11956BDE1A241FB10007747A /* aura.wav */,
+				11956BDF1A241FB10007747A /* basicbeam_charge.wav */,
+				11956BE01A241FB10007747A /* basicbeam_fire.wav */,
+				11956BE11A241FB10007747A /* boom.wav */,
+				11956BE21A241FB10007747A /* chainswoop.wav */,
+				11956BE31A241FB10007747A /* descend.wav */,
+				11956BE41A241FB10007747A /* explosion.wav */,
+				11956BE51A241FB10007747A /* explosion1.wav */,
+				11956BE61A241FB10007747A /* Explosion2.wav */,
+				11956BE71A241FB10007747A /* finalflash.wav */,
+				11956BE81A241FB10007747A /* groundhit2.wav */,
+				11956BE91A241FB10007747A /* groundrecover.wav */,
+				11956BEA1A241FB10007747A /* jump.wav */,
+				11956BEB1A241FB10007747A /* kame_charge.wav */,
+				11956BEC1A241FB10007747A /* kamehameha_fire.wav */,
+				11956BED1A241FB10007747A /* kiplosion.wav */,
+				11956BEE1A241FB10007747A /* mase_charge.wav */,
+				11956BEF1A241FB10007747A /* mediumkick.wav */,
+				11956BF01A241FB10007747A /* mediumpunch.wav */,
+				11956BF11A241FB10007747A /* meleeflash.wav */,
+				11956BF21A241FB10007747A /* meleehit1.wav */,
+				11956BF31A241FB10007747A /* meleehit2.wav */,
+				11956BF41A241FB10007747A /* meleemiss1.wav */,
+				11956BF51A241FB10007747A /* meleemiss2.wav */,
+				11956BF61A241FB10007747A /* meleemiss3.wav */,
+				11956BF71A241FB10007747A /* meleestruggletie.wav */,
+				11956BF81A241FB10007747A /* prepunch1.wav */,
+				11956BF91A241FB10007747A /* presword1.wav */,
+				11956BFA1A241FB10007747A /* punch.wav */,
+				11956BFB1A241FB10007747A /* rapid punch.wav */,
+				11956BFC1A241FB10007747A /* strongkick.wav */,
+				11956BFD1A241FB10007747A /* strongpunch.wav */,
+				11956BFE1A241FB10007747A /* supermove.wav */,
+				11956BFF1A241FB10007747A /* swoop.wav */,
+				11956C001A241FB10007747A /* swoophit.wav */,
+				11956C011A241FB10007747A /* sword-slash.wav */,
+				11956C021A241FB10007747A /* swordhit.wav */,
+				11956C031A241FB10007747A /* swordkill.wav */,
+				11956C041A241FB10007747A /* teleport.wav */,
+				11956C051A241FB10007747A /* teleport00.wav */,
+			);
+			path = "DBZ sound effects!";
+			sourceTree = "<group>";
+		};
+		11956C2F1A24362A0007747A /* background music */ = {
+			isa = PBXGroup;
+			children = (
+				11956C461A2454A10007747A /* Dragon_Ball_Dub_Step.mp3 */,
+				11956C441A2454830007747A /* Rock_the_Dragon.mp3 */,
+				11956C421A2443400007747A /* perfect_cell_theme2.mp3 */,
+				11956C301A24362A0007747A /* cell.mp3 */,
+				11956C311A24362A0007747A /* dragon_ball_gt.mp3 */,
+				11956C321A24362A0007747A /* dragon_ball_opening.mp3 */,
+				11956C331A24362A0007747A /* dragon_ball_z.mp3 */,
+				11956C341A24362A0007747A /* dragon_ball_z_theme.mp3 */,
+				11956C351A24362A0007747A /* dragon_ball_z_theme2.mp3 */,
+				11956C361A24362A0007747A /* perfect_cell.mp3 */,
+				11956C371A24362A0007747A /* perfect_cell_theme.mp3 */,
+				11956C381A24362A0007747A /* vegeta_attack_theme.mp3 */,
+			);
+			name = "background music";
+			path = "../../Downloads/background music";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -393,23 +598,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11956C191A241FB10007747A /* mediumpunch.wav in Resources */,
+				11956C141A241FB10007747A /* kame_charge.wav in Resources */,
+				11956C151A241FB10007747A /* kamehameha_fire.wav in Resources */,
+				11956C071A241FB10007747A /* aura.wav in Resources */,
+				11956C181A241FB10007747A /* mediumkick.wav in Resources */,
+				11956C241A241FB10007747A /* rapid punch.wav in Resources */,
+				11956C261A241FB10007747A /* strongpunch.wav in Resources */,
+				11956C3A1A24362A0007747A /* dragon_ball_gt.mp3 in Resources */,
+				11956C131A241FB10007747A /* jump.wav in Resources */,
+				11956C1D1A241FB10007747A /* meleemiss1.wav in Resources */,
 				1150447D1A22E5B5004C147F /* LaunchScreen.xib in Resources */,
+				11956BDA1A241BBB0007747A /* perfect_cell_theme1.mp3 in Resources */,
+				11956C0F1A241FB10007747A /* Explosion2.wav in Resources */,
+				11956C0C1A241FB10007747A /* descend.wav in Resources */,
 				1194D3AF1A2366F4008C209B /* Game_Over.png in Resources */,
+				11956C2A1A241FB10007747A /* sword-slash.wav in Resources */,
+				11956C2D1A241FB10007747A /* teleport.wav in Resources */,
+				11956C3B1A24362A0007747A /* dragon_ball_opening.mp3 in Resources */,
+				11956C211A241FB10007747A /* prepunch1.wav in Resources */,
+				11956C3E1A24362A0007747A /* dragon_ball_z_theme2.mp3 in Resources */,
+				11956C1F1A241FB10007747A /* meleemiss3.wav in Resources */,
+				11956BD51A23E6A20007747A /* kameha.mp3 in Resources */,
 				1150447A1A22E5B5004C147F /* Images.xcassets in Resources */,
 				1194D3B41A2366F4008C209B /* goku.bmp in Resources */,
+				11956C111A241FB10007747A /* groundhit2.wav in Resources */,
 				1194D3B71A2366F4008C209B /* misc.atlas in Resources */,
+				11956C471A2454A10007747A /* Dragon_Ball_Dub_Step.mp3 in Resources */,
+				11956C251A241FB10007747A /* strongkick.wav in Resources */,
+				11956C2E1A241FB10007747A /* teleport00.wav in Resources */,
+				11956C221A241FB10007747A /* presword1.wav in Resources */,
+				11956C0A1A241FB10007747A /* boom.wav in Resources */,
+				11956C2B1A241FB10007747A /* swordhit.wav in Resources */,
 				115044941A22E671004C147F /* BaseLevel.h in Resources */,
+				11956C081A241FB10007747A /* basicbeam_charge.wav in Resources */,
 				1194D3AC1A2366F4008C209B /* buu.atlas in Resources */,
+				11956C201A241FB10007747A /* meleestruggletie.wav in Resources */,
 				1194D3B81A2366F4008C209B /* Rock-Sprite.png in Resources */,
+				11956C291A241FB10007747A /* swoophit.wav in Resources */,
 				1194D3B01A2366F4008C209B /* goku_norm.atlas in Resources */,
+				11956C281A241FB10007747A /* swoop.wav in Resources */,
 				1194D3B21A2366F4008C209B /* goku_ss3.atlas in Resources */,
+				11956C091A241FB10007747A /* basicbeam_fire.wav in Resources */,
 				1194D3B31A2366F4008C209B /* goku_ss4.atlas in Resources */,
+				11956C0B1A241FB10007747A /* chainswoop.wav in Resources */,
+				11956C161A241FB10007747A /* kiplosion.wav in Resources */,
 				1194D3B61A2366F4008C209B /* Goku_splash_sketch_phone.png in Resources */,
+				11956C3D1A24362A0007747A /* dragon_ball_z_theme.mp3 in Resources */,
+				11956C411A24362A0007747A /* vegeta_attack_theme.mp3 in Resources */,
+				11956C231A241FB10007747A /* punch.wav in Resources */,
 				1194D3B51A2366F4008C209B /* Goku_splash_sketch.png in Resources */,
+				11956C061A241FB10007747A /* aura-big.wav in Resources */,
+				11956C391A24362A0007747A /* cell.mp3 in Resources */,
+				11956C271A241FB10007747A /* supermove.wav in Resources */,
+				11956C1E1A241FB10007747A /* meleemiss2.wav in Resources */,
 				1194D3AE1A2366F4008C209B /* minions.atlas in Resources */,
+				11956C401A24362A0007747A /* perfect_cell_theme.mp3 in Resources */,
+				11956C171A241FB10007747A /* mase_charge.wav in Resources */,
+				11956C3C1A24362A0007747A /* dragon_ball_z.mp3 in Resources */,
+				11956C2C1A241FB10007747A /* swordkill.wav in Resources */,
+				11956BD31A23E6880007747A /* End-shout.mp3 in Resources */,
+				11956C0D1A241FB10007747A /* explosion.wav in Resources */,
+				11956C3F1A24362A0007747A /* perfect_cell.mp3 in Resources */,
 				1194D3AD1A2366F4008C209B /* cell.atlas in Resources */,
+				11956C431A2443400007747A /* perfect_cell_theme2.mp3 in Resources */,
+				11956C101A241FB10007747A /* finalflash.wav in Resources */,
 				1194D3B11A2366F4008C209B /* goku_ss1.atlas in Resources */,
+				11956C0E1A241FB10007747A /* explosion1.wav in Resources */,
+				11956C451A2454830007747A /* Rock_the_Dragon.mp3 in Resources */,
 				1194D3981A2366AF008C209B /* Main.storyboard in Resources */,
+				11956C1A1A241FB10007747A /* meleeflash.wav in Resources */,
+				11956BCF1A23E5B80007747A /* goku.mp3 in Resources */,
+				11956C1C1A241FB10007747A /* meleehit2.wav in Resources */,
+				11956C1B1A241FB10007747A /* meleehit1.wav in Resources */,
+				11956C121A241FB10007747A /* groundrecover.wav in Resources */,
 				1194D3AB1A2366F4008C209B /* Button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -70,9 +70,11 @@
     if(levelIndicator == 1){
         if([firstLevel.goku oneBallIsNil]){
             [firstLevel.goku haltVelocity:@"X"];
+            
             if([firstLevel.goku.lastDirection isEqualToString:@"right"]){
                 currentFrames= [firstLevel.goku getAnimationFrames:@"goku_norm_ball_charge_right"];
                 [firstLevel.goku runAnimation:currentFrames atFrequency:.2f withKey:@"goku_animation_key"];
+                
             }else if([firstLevel.goku.lastDirection isEqualToString:@"left"]){
                 currentFrames= [firstLevel.goku getAnimationFrames:@"goku_norm_ball_charge_left"];
                 [firstLevel.goku runAnimation:currentFrames atFrequency:.2f withKey:@"goku_animation_key"];
@@ -91,7 +93,7 @@
         [firstLevel handleTapGestureWithLocation:location andDirection:direction];
         // test change
         SKNode *node = [self nodeAtPoint:location];
-        // [firstLevle checkNodeTap:firstLevel.goku inRelationTo:firstLevel.goku];
+        // [firstLevel checkNodeTap:firstLevel.goku inRelationTo:firstLevel.goku];
         if([node isEqual:firstLevel.minion1] && abs((firstLevel.goku.position.x - firstLevel.minion1.position.x) < 10)){
             [node runAction:[SKAction fadeOutWithDuration:0]];
         }else if([node isEqual:firstLevel.finalBoss] && abs((firstLevel.goku.position.x - firstLevel.minion1.position.x) < 10)){
@@ -163,6 +165,5 @@
     }
     
 }
-
 
 @end
